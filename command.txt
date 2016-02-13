@@ -1,0 +1,94 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  cd workspace/
+    5  ls
+    6  git init FirstProject/
+    7  cd FirstProject/
+    8  git status
+    9  gid add src
+   10  git add src
+   11  git commit
+   12  git status
+   13  git commit -m "First commit" .
+   14  cd src
+   15  git status
+   16  pwd
+   17  ls
+   18  git status
+   19  git add .
+   20  git commit -m "New file" .
+   21  git barnch
+   22  git branch
+   23  git config --global user.name "Mahendra"
+   24  git config --global user.email "pratap.mahendra@gmail.com"
+   25  pwd
+   26  git status
+   27  git status
+   28  git add Test.txt 
+   29  git status
+   30  git commit -m "change1" .
+   31  git log
+   32  git branch Mybranch
+   33  git checkout Mybranch
+   34  git status
+   35  git add MyBranch.txt 
+   36  git status
+   37  git commit -m "New branch" .
+   38  git log
+   39  git branch
+   40  git checkout master
+   41  git checkot Mybranch
+   42  git checkout Mybranch
+   43  git status
+   44  git add Test.txt 
+   45  git status
+   46  git commit -m "another changes in Mybranch"
+   47  git status
+   48  git branch
+   49  git checkout master
+   50  git checkout Mybranch
+   51  git status
+   52  git stash
+   53  git checkout master
+   54  git branch
+   55  git status
+   56  git add Test.txt 
+   57  git commit -m "changes in master" .
+   58  git checkout Mybranch
+   59  git status
+   60  git stash pop
+   61  git stash
+   62  git stash aply
+   63  git stash list
+   64  git stash apply
+   65  pwd
+   66  cd ../..
+   67  git clone https://github.com/ms71987/MyNewRepo.git
+   68  ls
+   69  rm -rf MyNewRepo/
+   70  ssh-keygen -t rsa -C "pratap.mahendra@gmail.com"
+   71  ssh -T git@github.com
+   72  ssh -T git@github.com
+   73  ssh -T git@github.com
+   74  ls
+   75  cd FirstProject/
+   76  git branch
+   77  git checkout master
+   78  git add src/Test.txt 
+   79  git commit -m "changes done"
+   80  git checkout master
+   81  git status
+   82  git add .
+   83  git status
+   84  git reset HEAD bin/MyHelloWorld.class
+   85  git status
+   86  git commit -m "whole project"
+   87  pwd
+   88  git remote add origin https://github.com/ms71987/MyNewRepo.git
+   89  git push origin master
+   90  git info
+   91  git remote -v
+   92  git branch
+   93  history
+   94  history > command.txt
