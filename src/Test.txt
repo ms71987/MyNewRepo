@@ -2,3 +2,4 @@ change1
 Change in my branch
 changes2
 change3
+change for GUI
